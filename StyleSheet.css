@@ -1,0 +1,54 @@
+body 
+{
+    background-color: darkslategray;
+}
+
+.screen
+{
+    
+    border: thick ridge #66FFFF; position: absolute; 
+    width: 337px; height: 50px; top: 7px; left: 4px; 
+    font-family: Tahoma; text-decoration: wavy; 
+    font-size: x-large; font-weight: normal;
+    background-color:  mediumaquamarine;color: white; 
+    text-align: right; line-height: inherit;
+}
+div#button-pad 
+{
+    position: absolute; width: 352px; height: 300px; left: 0px; top: 50px;
+}
+.button 
+{
+   
+    font-family: "Baiduan Number"; font-size: large;
+    font-weight: bold; font-style: normal; font-variant: normal; 
+    color: black; text-align: center; background-color: #FFFFFF;
+    width: 80px; height: 50px; border-radius:8px;
+    border-style: none outset outset none; 
+    border-bottom-width: medium;border-right-width: medium; border-bottom-color: brown;
+   
+
+}
+ .button:active
+ {
+     border-style:none;
+     
+    
+}
+div#calculator 
+{
+    position: absolute; width: 352px; height: 365px; left: 40px; top: 150px;
+    background-color: cadetblue;
+    border:outset;
+
+}
+div#banner 
+{
+    top:0px;left:0px;
+    width:100%;
+    height:100px;
+    background-color:khaki;
+    border-bottom-color:aqua;
+    font-family: "Arial Black"; font-size: 60px; font-weight: bolder; font-style: normal; color: darkslategrey
+
+}

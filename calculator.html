@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head >
+    <title></title>
+    <link href="StyleSheet.css" type="text/css" rel="stylesheet"/>
+     <script src="JavaScript.js" type="text/javascript">
+         
+      </script>
+
+</head>
+<body>
+
+
+    <div id="banner">
+      
+        
+        <label >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GSoC 2016 Proposal Showcase</label>
+
+    </div>
+   <div id="calculator" style="border: thick outset #00CCFF"> 
+        <div class="auto-style1" >
+            <input id="screen" class="screen" value="0" type="text" autocomplete="off" role="banner" /> 
+            <div id="button-pad"> 
+                &nbsp;<table cellpadding="1" cellspacing="5" class="auto-style2">
+                    <tr>
+                        <td>
+                            <input id="pstart" class="button" onclick="addDigit('(')" style="background-color:skyblue;" type="button" value="(" /></td>
+                        <td class="auto-style2">
+                            <input id="pend" class="button" onclick="addDigit(')')" style="background-color:skyblue;" type="button" value=")" /></td>
+                        <td>
+                            <input id="modolu" class="button" onclick="addDigit('%')" style="background-color:skyblue; " type="button" value="%" /></td>
+                        <td>
+                            <input id="divide" class="button" onclick="addDigit('/')" style="background-color:skyblue; " type="button" value="/" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="seven" class="button" onclick="addDigit('7')" type="button" value="7" /></td>
+                        <td class="auto-style2">
+                            <input id="eight" class="button" onclick="addDigit('8')" type="button" value="8" /></td>
+                        <td>
+                            <input id="nine" class="button" onclick="addDigit('9')" type="button" value="9" /></td>
+                        <td>
+                            <input id="multiply" class="button" onclick="addDigit('*')" style="background-color:skyblue; " type="button" value="*" /></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style1">
+                            <input id="four" class="button" onclick="addDigit('4')" type="button" value="4" /></td>
+                        <td class="auto-style3">
+                            <input id="five" class="button" onclick="addDigit('5')" type="button" value="5" /></td>
+                        <td class="auto-style1">
+                            <input id="six" class="button" onclick="addDigit('6')" type="button" value="6" /></td>
+                        <td class="auto-style1">
+                            <input id="minus" class="button" onclick="addDigit('-')" style="background-color:skyblue; " type="button" value="-" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="one" class="button" onclick="addDigit('1')" type="button" value="1" /></td>
+                        <td class="auto-style2">
+                            <input id="two" class="button" onclick="addDigit('2')" type="button" value="2" /></td>
+                        <td>
+                            <input id="three" class="button" onclick="addDigit('3')" type="button" value="3" /></td>
+                        <td>
+                            <input id="add" class="button" onclick="addDigit('+')" style="background-color:skyblue; " type="button" value="+" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="zero" class="button" onclick="addDigit('0')" type="button" value="0" /></td>
+                        <td class="auto-style2">
+                            <input id="point" class="button" onclick="addDigit('.')" type="button" value="." /></td>
+                        <td>
+                            <input id="ce" class="button" onclick="flush()" style="background-color:red;" type="button" value="C" /></td>
+                        <td>
+                            <input id="equal" class="button" onclick="calculate()" style="background-color: green; " type="button" value="=" /></td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+      </div>  
+</body>
+</html>
